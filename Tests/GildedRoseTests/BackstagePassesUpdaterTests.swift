@@ -10,7 +10,7 @@ import XCTest
 
 final class BackstagePassesUpdaterTests: XCTestCase {
         
-    func testUpdaterWith11Days() {
+    func testUpdaterWith12Days() {
         let item = Item(name: "item", sellIn: 12, quality: 10)
         let stepUpdater = BackstagePassesUpdater(item: item)
         stepUpdater.updateItem()
